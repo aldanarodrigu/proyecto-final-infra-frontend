@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registrar Usuario</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-button">Volver</a>
+    <h2>Registro de Usuario</h2>
+    <form id="registroForm">
+      <div class="form-group">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: Aldana Rodríguez" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="Ej: aldana@mail.com" required />
+      </div>
+
+      <div class="form-group">
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ej: 099123456" required />
+      </div>
+
+      <button type="submit">Registrar</button>
+      <p id="mensaje" class="message"></p>
+    </form>
+  </div>
+
+  <script src="registrar.js"></script>
+</body>
+</html>
