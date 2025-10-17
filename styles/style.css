@@ -163,36 +163,3 @@ h1 {
   background: #693e94;
 }
 
-.back-arrow {
-    display: inline-block;
-    margin-bottom: 15px;
-    color: #5563DE;
-    text-decoration: none;
-    font-weight: bold;
-    transition: transform 0.2s ease;
-}
-
-.back-arrow:hover {
-    transform: translateX(-5px);
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #5563DE;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
