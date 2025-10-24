@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     const tbody = document.getElementById('userTableBody');
 
-    fetch('http://localhost:8080/api/usuarios/')  // endpoint Django
+    fetch('http://localhost:8090/api/usuarios/')  
         .then(response => response.json())
         .then(data => {
-            // Si tu JsonResponse devuelve { "usuarios": [...] }
+        
             const usuarios = data.usuarios || data;  
 
             usuarios.forEach(usuario => {

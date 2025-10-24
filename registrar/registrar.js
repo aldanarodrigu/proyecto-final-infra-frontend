@@ -11,7 +11,7 @@ form.addEventListener('submit', async (e) => {
   };
 
   try {
-    const res = await fetch('http://127.0.0.1:8080/api/usuarios/crear/', {
+    const res = await fetch('http://localhost:8090/api/usuarios/crear/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
@@ -31,3 +31,4 @@ form.addEventListener('submit', async (e) => {
     mensaje.style.color = "red";
   }
 });
+
