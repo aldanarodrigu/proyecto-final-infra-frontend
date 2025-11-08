@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const tbody = document.getElementById('userTableBody');
 
-    fetch('http://localhost:8090/api/usuarios/')  
+    fetch('https://2gd75ul332.execute-api.us-east-1.amazonaws.com/prod/api/usuarios')  
         .then(response => response.json())
         .then(data => {
         
