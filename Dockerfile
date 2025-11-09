@@ -8,3 +8,5 @@ COPY Caddyfile /etc/caddy/Caddyfile
 
 # Expose port 80
 EXPOSE 80
+
+# Hay que ver bien como levanar el docker para el back.
